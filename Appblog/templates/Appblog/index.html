@@ -17,7 +17,8 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <img src="{% static 'Basket.png' %}" alt="logo" width="300" height="250"> </a>
+                <a class="navbar-brand" href="{% url 'List' %}"></a>
+                <img src="{% static 'AppBlog/assets/banner.png' %}" alt="logo" width="200" height="45"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -43,7 +44,7 @@
                     {% else %} 
                     <h1 class="fw-bolder">Bienvenid@ !
                         {% endif %}
-                        <h5 class = "text-muted" > Al blog con todas las novedades acerca de impuestos  </p>  
+                        <h5 class = "text-muted" > Al blog de Basket </p>  
                     
                    
 

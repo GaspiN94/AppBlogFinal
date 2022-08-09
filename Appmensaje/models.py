@@ -6,3 +6,5 @@ class Mensaje (models.Model):
     autor = models.CharField(max_length=40)
     mensaje = models.CharField(max_length=1000)
     
+    def __str__(self):
+        return self.autor

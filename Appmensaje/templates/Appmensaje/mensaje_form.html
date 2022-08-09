@@ -11,6 +11,7 @@
         {% csrf_token %}
         {{ form.as_p}}
         <input type="submit" value="Enviar">
+        <p></p><a href="{% url 'List' %}" >Volver al inicio</a>
         
 </body>
 </html>

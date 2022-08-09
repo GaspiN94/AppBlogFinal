@@ -9,8 +9,8 @@
 <body>
     {% for mensaje in object_list %} 
     
-<p> <li>   {{mensaje.autor }} dice: </li>
-           {{mensaje.mensaje}}  
+<p><h2> <li>   {{mensaje.autor }} dice: </li></h2>
+      <h3>  {{mensaje.mensaje}}  </h3>
  <p></p> <a href=" {% url 'editarcomentario' mensaje.id %}"> Editar  </a> <a href="{% url 'borrarcomentario' mensaje.id %}">Borrar</a>  </p>
 <p></p>
 
