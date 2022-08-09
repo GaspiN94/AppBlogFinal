@@ -1,14 +1,21 @@
 # proyectofinal
 Proyecto final para curso de Python 
 
-AUTOR : NICOLAS, GASPAR AGUSTIN %100
+AUTOR : NICOLAS, GASPAR AGUSTIN 
 
-Lamentablemente no estuvieron dispuestos a realizar el trabajo.
-0% FEDERICO CESTI 
-0% EMILY FERNANDEZ
+Lamentablemente no realizaron aportes a el trabajo.
+-FEDERICO CESTI 
+-EMILY FERNANDEZ
 
 Blog 
-pagina principal: 
+
+Recorda iniciar la app en VISUAL STUDIO CODE
+-Abrir la terminal
+-Hacer migraciones se ejecutan mediante el siguiente comando Python manage.py makemigrations
+-Luego Ejecutar Python manage.py migrate para aplicar esos cambios a la base de datos. 
+-Y por ultimo correr el servidor  Python manage.py Runserver
+
+Pagina principal: 
 
 http://127.0.0.1:8000/   --- > nos lleva a la pagina de inicio
 http://127.0.0.1:8000/pages -----> nos lleva a la lista de post 
