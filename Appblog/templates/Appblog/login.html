@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Blogsito de Gaspi</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href=" {% static 'Appblog/assets/favicon.svg' %} " />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'Appblog/css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body style="background-image: url('static/Appblog/assets/fondo.jpeg') ; background-size:cover ; height:100% ; ">
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                       
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+           
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'List' %}">Inicio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page header with logo and tagline-->
+        <header class="py-5 bg-light border-bottom mb-4">
+            <div class="container">
+                <div class="text-center my-5">
+                    <h1 class="fw-bolder">Welcome {{USUARIO}} !
+                        <p>
+
+                        </p>
+                        <hi class="lead mb-0">
+                        <form method="POST">
+        
+                            {% csrf_token %}
+                    
+                            {{form.as_p}}
+                    
+                            <button type="submit", > Iniciar sesion </button>
+                            <p></p>
+                           <p>Si aun no te registraste  </p>
+
+                            <a class="btn btn-primary" id="button-search" href = "{% url 'Register' %}" type="button">Registrate! </a>
+                           
+                        </hi>
+                </div>
+            </div>
+        </header>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src=" {% static 'Appblog/js/scripts.js' %}"></script>
+    </body>
+</html>

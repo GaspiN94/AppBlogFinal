@@ -1,0 +1,110 @@
+{% extends 'Appblog/inicio.html' %} 
+
+
+
+{% block main_content %}
+<body>
+
+    <ul>
+        {% for post in object_list %} 
+            <li> 
+                <div class="row">
+                    
+
+                    <div class="card mb-4">
+                        <img  class="card-title"  height=" 400 " src="{% if post.imagen %} {{ post.imagen.url}} {% endif %} ">       
+
+                        <div class="card-body">
+                           
+                            <div class="small text-muted"> {{ post.fecha }} </div>
+                            <h2 class="card-title h4"> {{ post.titulo }} </h2>
+                            <p class="card-text"> {{ post.introduccion }} </p>
+                        
+                            <a class="btn btn-primary" href= "{% url 'Detail' post.id %} "> Abrir noticia →</a>
+                            
+                             <a class="btn btn-success" href= "{% url 'Edit' post.id %}"> Editar →</a> <a class="btn btn-danger" href= "{% url 'Delete' post.id %}"> Borrar →</a>
+                             {% if request.user.username == post.autor %} 
+                             {% endif %}
+                        </div>
+                    </div>
+                </div>
+        {% endfor %}   
+
+
+
+                </p>
+            </li>
+       
+
+                                
+                    <!-- Pagination -->
+                    <nav aria-label="Pagination">
+                        <hr class="my-0" />
+                        <ul class="pagination justify-content-center my-4">
+                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Proxima Pagina</a></li>
+                            <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>  
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+                    <!-- Search widget-->
+                    <div class="card mb-4" style=" Background-color: transparent ">
+                        <div class="card-header"><b> Perfil </b></div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <div class="text-center ">
+                                    {% if request.user.is_authenticated %}
+                                    <h1 class="">{{request.user.username}} </h1>
+
+                            <p>
+                                        <a href= "{% url 'perfil' %}" ><h3><b> Ir a mi perfil </b></h3></a>
+
+                                        {% else %} 
+                                        <p class="fw-bolder">Aun no iniciaste sesion>
+                                        {% endif %}
+
+
+                    </p>
+                    <!-- Categories widget-->
+                    <div class="card mb-4" style="background-image: url('static/Appblog/assets/piso.jpg') ; Background-color: transparent ; background-size:contain; background-repeat: no-repeat ; height:100% ; ">
+                        <div class="card-header"><b>Fuentes </b></div>
+                        <div class="card-body">
+                            <div class="row">
+              
+                                        <li><b><a href="https://www.sportingnews.com/ar/nba/noticias>Constancia de inscripcion AFIP"> NBA</a></b></li>
+                                        <li><b><a href="https://www.argentina.basketball/#">CAB</a></b></li>
+                                        <li><b><a href="https://www.feb.es/ultima-hora.aspx">FEB</a></b></li>
+                                        <li><b><a href="https://www.fiba.basketball/es/news">FIBA</a></b></li>
+                                    </ul>
+                                </div>
+                       
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Side widget-->
+                    <div  class="card mb-4" style=" Background-color: transparent ">
+                        <div class="card-header" style="color: rgb(255, 255, 255)"><h3><b>Mensajes</b> </div>
+                        <div class="card-body" style="color: rgb(255, 255, 255)"><h3><b> Dejanos tu mensaje! Recorda que debes estar registrado </b></h3></div>
+                        {% if request.user.is_authenticated %}
+                       
+
+                <p>
+                            <a href = "{% url 'mensajes' %}" ><b> <------------------ JUSTO AQUÍ! ------------------> </b></a>
+
+                            {% else %} 
+                            <p class="fw-bolder">Aun no iniciaste sesion>
+                            {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ul>
+</body>
+{% endblock main_content %}
+
+</html>
+

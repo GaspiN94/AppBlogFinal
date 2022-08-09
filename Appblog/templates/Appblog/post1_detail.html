@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle</title>
+</head>
+<body>
+    
+    <form method="post" enctype="multipart/form-data">
+
+    <p> Titulo del post : <i> {{ post1.titulo }}</i> </p>
+    <p> Subtitulo: <i> {{ post1.subtitulo }} </i> </p>
+    <P>  <i> {{post1.introduccion}} </i></P>
+    <p>  <i> {{ post1.cuerpo }} </i> </p>
+    <p>  <i>Autor:  {{ post1.autor }} </i> </p>
+    <p>  <i>Fecha de publicacion: {{ post1.fecha }} </i> </p>
+    <img  class="card-title"  height=" 250 " src="{% if post1.imagen %} {{ post1.imagen.url}} {% endif %} ">       
+
+
+
+    <p> 
+        <a class="btn btn-primary" href="{% url 'List' %}" > Regresar   </a>
+    </p>
+    </form>
+</body>
+</html>

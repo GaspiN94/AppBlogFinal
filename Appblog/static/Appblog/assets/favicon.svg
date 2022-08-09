@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg2"
+    sodipodi:modified="TRUE"
+    viewBox="0 0 252.26 251.88"
+    sodipodi:docbase="/home/gioppo/Disegni"
+    inkscape:export-ydpi="90"
+    inkscape:export-xdpi="90"
+    version="1.0"
+    inkscape:output_extension="org.inkscape.output.svg.inkscape"
+    sodipodi:docname="Gioppino_Basketball.svg"
+    inkscape:export-filename="/home/gioppo/Disegni/basketball2.png"
+    inkscape:version="0.46"
+    sodipodi:version="0.32"
+  >
+  <defs
+      id="defs4"
+    >
+    <radialGradient
+        id="radialGradient2197"
+        gradientUnits="userSpaceOnUse"
+        cy="386"
+        cx="362.18"
+        gradientTransform="matrix(1.1377 .88039 -.61106 .78967 185.99 -237.58)"
+        r="126.13"
+        inkscape:collect="always"
+      >
+      <stop
+          id="stop2191"
+          style="stop-color:rgb(255, 213, 42)"
+          offset="0"
+      />
+      <stop
+          id="stop2193"
+          style="stop-color:rgb(255, 127, 42)"
+          offset="1"
+      />
+    </radialGradient
+    >
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="25"
+      pagecolor="#ffffff"
+      inkscape:window-height="821"
+      inkscape:zoom="0.58534981"
+      inkscape:window-x="0"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="676.72069"
+      inkscape:cy="496.62837"
+      inkscape:window-width="1152"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Livello 1"
+      inkscape:groupmode="layer"
+      transform="translate(-274.92 -319.6)"
+    >
+    <path
+        id="path2236"
+        style="stroke:#000000;stroke-width:4.9243;fill:url(#radialGradient2197)"
+        d="m290.08 500.01c-30.11-61.16-4.84-135.2 56.42-165.27 61.25-30.07 135.41-4.83 165.52 56.33s4.84 135.2-56.42 165.27c-61.2 30.03-135.27 4.89-165.44-56.18"
+    />
+    <path
+        id="path9163"
+        style="stroke:#000000;stroke-width:.73246px;fill:none"
+        d="m277.39 430.72z"
+    />
+    <path
+        id="path9165"
+        sodipodi:nodetypes="cc"
+        style="stroke:#000000;stroke-width:4.3947;fill:none"
+        d="m278.66 433.19c19.45-47.33 235.47-0.82 244.77 24.69"
+    />
+    <path
+        id="path10136"
+        sodipodi:nodetypes="cc"
+        style="stroke:#000000;stroke-width:4.3947;fill:none"
+        d="m430.85 324.55c104 36.62 55.8 231.28-41.85 243.21"
+    />
+    <path
+        id="path12150"
+        sodipodi:nodetypes="cc"
+        style="stroke:#000000;stroke-width:4.3947;fill:none"
+        d="m349.68 333.19c59.19 4.94 98.08 93.83 161.07 61.73"
+    />
+    <path
+        id="path13121"
+        sodipodi:nodetypes="cc"
+        style="stroke:#000000;stroke-width:4.3947;fill:none"
+        d="m295.15 510.97c84.97 12.76 197.85-105.35 205.46 8.64"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Basketball</dc:title
+        >
+        <dc:date
+          >2007-08-03T06:06:39</dc:date
+        >
+        <dc:description
+          >A simple basketball</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/4667/basketball-by-gioppino</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >Gioppino</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >basketball</rdf:li
+            >
+            <rdf:li
+              >how i did it</rdf:li
+            >
+            <rdf:li
+              >sport</rdf:li
+            >
+            <rdf:li
+              >spring2013</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

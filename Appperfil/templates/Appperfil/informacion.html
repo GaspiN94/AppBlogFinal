@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if errors %} 
+        {% for error in errors %} 
+        <p style="color: red"> {{error}} </p>
+        {% endfor %} 
+    {% endif %}
+
+
+    <form method="POST">
+
+        {% csrf_token %} 
+
+        {{form.as_p}}
+
+        <input type="submit" value="Actualizar" class="btn btn-primary">
+    </form>
+</body>
+</html>
